@@ -1,0 +1,503 @@
+[debug] [2019-10-28T22:21:41.926Z] ----------------------------------------------------------------------
+[debug] [2019-10-28T22:21:41.928Z] Command:       /nfs/2018/s/saolivei/.brew/Cellar/node@10/10.17.0/bin/node /nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/.bin/firebase serve --only functions
+[debug] [2019-10-28T22:21:41.929Z] CLI Version:   7.6.1
+[debug] [2019-10-28T22:21:41.929Z] Platform:      darwin
+[debug] [2019-10-28T22:21:41.929Z] Node Version:  v10.17.0
+[debug] [2019-10-28T22:21:41.930Z] Time:          Mon Oct 28 2019 15:21:41 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-10-28T22:21:41.930Z] ----------------------------------------------------------------------
+[debug] [2019-10-28T22:21:41.930Z] 
+[debug] [2019-10-28T22:21:41.955Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-28T22:21:41.957Z] > authorizing via signed-in user
+[debug] [2019-10-28T22:21:41.957Z] [iam] checking project example-api-public for permissions ["firebase.projects.get"]
+[debug] [2019-10-28T22:21:41.959Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/example-api-public:testIamPermissions  
+
+[debug] [2019-10-28T22:21:42.141Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-28T22:21:42.143Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/example-api-public  
+ 
+[debug] [2019-10-28T22:21:42.359Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/nfs/2018/s/saolivei/exampleApi-public/functions" for Cloud Functions...
+[debug] [2019-10-28T22:21:43.112Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:21:43.112Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:21:43.118Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:21:43.122Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:21:43.123Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module '../html/main.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/main.js:10:36)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - You may be able to run "npm run build" in your functions directory to resolve this.
+[debug] [2019-10-28T22:22:24.060Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:22:24.160Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:22:24.160Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:22:26.147Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:22:26.148Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:22:26.160Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:22:26.166Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:22:26.168Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[expressApp]: http function initialized (http://localhost:5000/example-api-public/us-central1/expressApp).
+[debug] [2019-10-28T22:22:42.107Z] Accepted request GET /example-api-public/us-central1/expressApp --> expressApp
+[debug] [2019-10-28T22:22:42.599Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-28T22:22:42.600Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:22:42.606Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:22:42.609Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:22:42.611Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:22:42.662Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-28T22:22:42.662Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-28T22:22:42.662Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-28T22:22:42.667Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_76243.sock"}
+[debug] [2019-10-28T22:22:42.673Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_76243.sock"}
+[debug] [2019-10-28T22:22:42.682Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-10-28T22:22:42.689Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s
+[debug] [2019-10-28T22:25:38.666Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/html/main.js changed, reloading triggers
+[debug] [2019-10-28T22:25:38.767Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/html/main.js.map changed, reloading triggers
+[debug] [2019-10-28T22:25:38.767Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/html/main.js changed, reloading triggers
+[debug] [2019-10-28T22:25:40.321Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:25:40.322Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:25:40.328Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:25:40.331Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:25:40.332Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:25:46.758Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/html/main.js changed, reloading triggers
+[debug] [2019-10-28T22:25:46.858Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/html/main.js.map changed, reloading triggers
+[debug] [2019-10-28T22:25:46.859Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/html/main.js changed, reloading triggers
+[debug] [2019-10-28T22:25:48.323Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:25:48.324Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:25:48.329Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:25:48.332Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:25:48.334Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:28.087Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:28.187Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js.map changed, reloading triggers
+[debug] [2019-10-28T22:27:28.188Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:30.147Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:27:30.147Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:27:30.156Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:27:30.160Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:30.161Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:40.583Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:41.851Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:41.951Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js.map changed, reloading triggers
+[debug] [2019-10-28T22:27:41.951Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:42.017Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:27:42.018Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:27:42.023Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:27:42.026Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:42.028Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:43.395Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:27:43.395Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:27:43.400Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:27:43.402Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:43.403Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:43.775Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:43.875Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js.map changed, reloading triggers
+[debug] [2019-10-28T22:27:43.876Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:45.395Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:27:45.395Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:27:45.401Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:27:45.403Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:45.405Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:49.264Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:49.364Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js.map changed, reloading triggers
+[debug] [2019-10-28T22:27:49.364Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/get.js changed, reloading triggers
+[debug] [2019-10-28T22:27:50.975Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:27:50.976Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:27:50.980Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:27:50.983Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:27:50.985Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:02.389Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:05.214Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:05.215Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:05.219Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:05.222Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:05.223Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:05.837Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:07.813Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:07.814Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:07.821Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:07.825Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:07.826Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:10.109Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:11.510Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:11.510Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:11.514Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:11.517Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:11.518Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:14.176Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:15.493Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:15.593Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:28:15.594Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:15.751Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:15.753Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:15.757Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:15.760Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:15.761Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/express/lib/application.js:482:19)
+    at expressServer (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js:25:7)
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/index.js:21:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - You may be able to run "npm run build" in your functions directory to resolve this.
+[debug] [2019-10-28T22:28:17.017Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:17.018Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:17.022Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:17.025Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:17.026Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/express/lib/application.js:482:19)
+    at expressServer (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js:25:7)
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/index.js:21:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - You may be able to run "npm run build" in your functions directory to resolve this.
+[debug] [2019-10-28T22:28:25.586Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:25.774Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:28:25.775Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:27.615Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:27.616Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:27.622Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:27.624Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:27.626Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/express/lib/application.js:482:19)
+    at expressServer (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js:25:7)
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/index.js:21:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - You may be able to run "npm run build" in your functions directory to resolve this.
+[debug] [2019-10-28T22:28:29.081Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:29.181Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:28:29.181Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:31.577Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:31.577Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:31.585Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:31.588Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:31.590Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:34.242Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:34.342Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:28:34.342Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:35.778Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:35.778Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:35.783Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:35.786Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:35.787Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:37.322Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:37.422Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:28:37.422Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:28:38.901Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:28:38.902Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:28:38.906Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:28:38.909Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:28:38.910Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:00.396Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:41:00.495Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js.map changed, reloading triggers
+[debug] [2019-10-28T22:41:00.495Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/index.js changed, reloading triggers
+[debug] [2019-10-28T22:41:06.243Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:41:06.343Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:41:06.344Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:41:06.835Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:41:06.836Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:41:06.847Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:41:06.852Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:06.853Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  ReferenceError: app is not defined
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js:14:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/index.js:8:36)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - You may be able to run "npm run build" in your functions directory to resolve this.
+[debug] [2019-10-28T22:41:07.885Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:41:07.885Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:41:07.890Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:41:07.894Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:07.896Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  ReferenceError: app is not defined
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js:14:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/index.js:8:36)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - You may be able to run "npm run build" in your functions directory to resolve this.
+[debug] [2019-10-28T22:41:09.094Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:41:09.194Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:41:09.194Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:41:12.268Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:41:12.268Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:41:12.273Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:41:12.276Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:12.278Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:20.843Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:41:20.943Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:41:20.943Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:41:22.476Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:41:22.476Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:41:22.484Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:41:22.487Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:22.490Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:38.228Z] ----------------------------------------------------------------------
+[debug] [2019-10-28T22:41:38.230Z] Command:       /nfs/2018/s/saolivei/.brew/Cellar/node@10/10.17.0/bin/node /nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/.bin/firebase serve --only functions
+[debug] [2019-10-28T22:41:38.230Z] CLI Version:   7.6.1
+[debug] [2019-10-28T22:41:38.231Z] Platform:      darwin
+[debug] [2019-10-28T22:41:38.231Z] Node Version:  v10.17.0
+[debug] [2019-10-28T22:41:38.232Z] Time:          Mon Oct 28 2019 15:41:38 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-10-28T22:41:38.232Z] ----------------------------------------------------------------------
+[debug] [2019-10-28T22:41:38.232Z] 
+[debug] [2019-10-28T22:41:38.252Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-28T22:41:38.254Z] > authorizing via signed-in user
+[debug] [2019-10-28T22:41:38.254Z] [iam] checking project example-api-public for permissions ["firebase.projects.get"]
+[debug] [2019-10-28T22:41:38.256Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-28T22:41:38.256Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-28T22:41:38.381Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-28T22:41:38.394Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/example-api-public:testIamPermissions  
+
+[debug] [2019-10-28T22:41:38.637Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-28T22:41:38.638Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/example-api-public  
+ 
+[debug] [2019-10-28T22:41:38.852Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/nfs/2018/s/saolivei/exampleApi-public/functions" for Cloud Functions...
+[debug] [2019-10-28T22:41:43.872Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:41:43.873Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:41:43.878Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:41:43.881Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:43.882Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[expressApp]: http function initialized (http://localhost:5000/example-api-public/us-central1/expressApp).
+[debug] [2019-10-28T22:41:56.066Z] Accepted request GET /example-api-public/us-central1/expressApp --> expressApp
+[debug] [2019-10-28T22:41:59.726Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-28T22:41:59.727Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:41:59.734Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:41:59.737Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:59.739Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:41:59.828Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-28T22:41:59.828Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-28T22:41:59.828Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-28T22:41:59.834Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_92160.sock"}
+[debug] [2019-10-28T22:41:59.839Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_92160.sock"}
+[debug] [2019-10-28T22:41:59.847Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-10-28T22:41:59.853Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s
+[debug] [2019-10-28T22:42:06.746Z] Accepted request GET /example-api-public/us-central1/expressApp/command=auth --> expressApp
+[debug] [2019-10-28T22:42:10.178Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-28T22:42:10.179Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:42:10.186Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:42:10.190Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:10.191Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:10.257Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-28T22:42:10.257Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-28T22:42:10.258Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-28T22:42:10.263Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_92324.sock"}
+[debug] [2019-10-28T22:42:10.266Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_92324.sock"}
+[debug] [2019-10-28T22:42:10.273Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-10-28T22:42:10.281Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s
+[debug] [2019-10-28T22:42:33.156Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:33.256Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:42:33.256Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:35.012Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:42:35.012Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:42:35.020Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:42:35.024Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:35.025Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:35.709Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:35.809Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:42:35.809Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:37.395Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:42:37.396Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:42:37.403Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:42:37.406Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:37.408Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:38.515Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:38.615Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:42:38.615Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:40.251Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:42:40.252Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:42:40.261Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:42:40.264Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:40.266Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:41.415Z] Accepted request GET /example-api-public/us-central1/expressApp/command=auth --> expressApp
+[debug] [2019-10-28T22:42:41.957Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-28T22:42:41.958Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:42:41.963Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:42:41.966Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:41.968Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:42.022Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-28T22:42:42.022Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-28T22:42:42.022Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-28T22:42:42.028Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_92871.sock"}
+[debug] [2019-10-28T22:42:42.031Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_92871.sock"}
+[debug] [2019-10-28T22:42:42.038Z] [runtime-status] Ephemeral server used! {}
+[info] >  get
+[debug] [2019-10-28T22:42:42.047Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s
+[debug] [2019-10-28T22:42:56.699Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:56.799Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:42:56.799Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:58.249Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:42:58.250Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:42:58.254Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:42:58.257Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:58.259Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:42:58.491Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:42:58.591Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js.map changed, reloading triggers
+[debug] [2019-10-28T22:42:58.591Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/server/routes/auth.js changed, reloading triggers
+[debug] [2019-10-28T22:43:00.068Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T22:43:00.068Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:43:00.073Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:43:00.076Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:43:00.078Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:43:03.845Z] Accepted request GET /example-api-public/us-central1/expressApp/command=auth --> expressApp
+[debug] [2019-10-28T22:43:04.366Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-28T22:43:04.367Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T22:43:04.372Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T22:43:04.375Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:43:04.376Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T22:43:04.432Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-28T22:43:04.433Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-28T22:43:04.433Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-28T22:43:04.437Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_93199.sock"}
+[debug] [2019-10-28T22:43:04.441Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_93199.sock"}
+[debug] [2019-10-28T22:43:04.449Z] [runtime-status] Ephemeral server used! {}
+[info] >  auth : get request
+[debug] [2019-10-28T22:43:04.457Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s
+[debug] [2019-10-28T23:13:01.705Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/src/index.js changed, reloading triggers
+[debug] [2019-10-28T23:13:01.806Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/index.js.map changed, reloading triggers
+[debug] [2019-10-28T23:13:01.806Z] File /nfs/2018/s/saolivei/exampleApi-public/functions/dist/index.js changed, reloading triggers
+[debug] [2019-10-28T23:13:04.767Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-28T23:13:04.767Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-28T23:13:04.774Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-28T23:13:04.777Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-28T23:13:04.779Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T21:40:57.070Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T21:40:57.072Z] Command:       /nfs/2018/s/saolivei/.brew/Cellar/node@10/10.17.0/bin/node /nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/.bin/firebase serve --only functions
+[debug] [2019-10-29T21:40:57.072Z] CLI Version:   7.6.1
+[debug] [2019-10-29T21:40:57.072Z] Platform:      darwin
+[debug] [2019-10-29T21:40:57.072Z] Node Version:  v10.17.0
+[debug] [2019-10-29T21:40:57.073Z] Time:          Tue Oct 29 2019 14:40:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-10-29T21:40:57.073Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T21:40:57.073Z] 
+[debug] [2019-10-29T21:40:57.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-29T21:40:57.095Z] > authorizing via signed-in user
+[debug] [2019-10-29T21:40:57.096Z] [iam] checking project example-api-public for permissions ["firebase.projects.get"]
+[debug] [2019-10-29T21:40:57.098Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/example-api-public:testIamPermissions  
+
+[debug] [2019-10-29T21:40:57.587Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-29T21:40:57.588Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/example-api-public  
+ 
+[debug] [2019-10-29T21:40:57.760Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/nfs/2018/s/saolivei/exampleApi-public/functions" for Cloud Functions...
+[debug] [2019-10-29T21:40:58.467Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-29T21:40:58.467Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-29T21:40:58.476Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-29T21:40:58.482Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T21:40:58.483Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[expressApp]: http function initialized (http://localhost:5000/example-api-public/us-central1/expressApp).
+[debug] [2019-10-29T23:14:51.443Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T23:14:51.445Z] Command:       /nfs/2018/s/saolivei/.brew/Cellar/node@10/10.17.0/bin/node /nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/.bin/firebase serve --only functions
+[debug] [2019-10-29T23:14:51.446Z] CLI Version:   7.6.1
+[debug] [2019-10-29T23:14:51.446Z] Platform:      darwin
+[debug] [2019-10-29T23:14:51.446Z] Node Version:  v10.17.0
+[debug] [2019-10-29T23:14:51.447Z] Time:          Tue Oct 29 2019 16:14:51 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-10-29T23:14:51.447Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T23:14:51.447Z] 
+[debug] [2019-10-29T23:14:51.473Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-29T23:14:51.475Z] > authorizing via signed-in user
+[debug] [2019-10-29T23:14:51.476Z] [iam] checking project example-api-public for permissions ["firebase.projects.get"]
+[debug] [2019-10-29T23:14:51.478Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-29T23:14:51.478Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-29T23:14:51.643Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-29T23:14:52.155Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/example-api-public:testIamPermissions  
+
+[debug] [2019-10-29T23:14:52.397Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-29T23:14:52.398Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/example-api-public  
+ 
+[debug] [2019-10-29T23:14:52.614Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/nfs/2018/s/saolivei/exampleApi-public/functions" for Cloud Functions...
+[debug] [2019-10-29T23:14:53.469Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[debug] [2019-10-29T23:14:53.469Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-29T23:14:53.479Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-29T23:14:53.487Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T23:14:53.488Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[expressApp]: http function initialized (http://localhost:5000/example-api-public/us-central1/expressApp).
+[debug] [2019-10-29T23:15:02.609Z] Accepted request GET /example-api-public/us-central1/expressApp --> expressApp
+[debug] [2019-10-29T23:15:03.084Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-29T23:15:03.085Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-29T23:15:03.090Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-29T23:15:03.093Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T23:15:03.094Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T23:15:03.151Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-29T23:15:03.152Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-29T23:15:03.152Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-29T23:15:03.157Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_34267.sock"}
+[debug] [2019-10-29T23:15:03.163Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_34267.sock"}
+[debug] [2019-10-29T23:15:03.172Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-10-29T23:15:03.179Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s
+[debug] [2019-10-29T23:15:25.856Z] Accepted request GET /example-api-public/us-central1/expressApp/command=get --> expressApp
+[debug] [2019-10-29T23:15:26.346Z] [runtime-status] Functions runtime initialized. {"cwd":"/nfs/2018/s/saolivei/exampleApi-public/functions","node_version":"10.17.0"}
+[info] i  functions: Beginning execution of "expressApp"
+[debug] [2019-10-29T23:15:26.347Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-29T23:15:26.352Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-29T23:15:26.354Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T23:15:26.355Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/nfs/2018/s/saolivei/exampleApi-public/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-29T23:15:26.409Z] [runtime-status] Trigger "expressApp" has been found, beginning invocation! {}
+[debug] [2019-10-29T23:15:26.409Z] [runtime-status]  {"httpsTrigger":{},"name":"expressApp","entryPoint":"expressApp"}
+[debug] [2019-10-29T23:15:26.409Z] [runtime-status] Running expressApp in mode HTTPS {}
+[debug] [2019-10-29T23:15:26.414Z] {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_34565.sock"}
+[debug] [2019-10-29T23:15:26.417Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/zz/zyxvpxvq6csfxvn_n00046r00011p0/T/firebase_emulator_invocation_34565.sock"}
+[debug] [2019-10-29T23:15:26.424Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-10-29T23:15:26.433Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "expressApp" in ~1s

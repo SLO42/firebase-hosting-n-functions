@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "example-api-public",
+    "staging": "example-api-public"
+  }
+}
