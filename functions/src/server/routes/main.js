@@ -3,6 +3,7 @@ import indexPage from '../html/main.js';
 
 const router = Router();
 
+// router.get('/', (req, res) => res.send(newIndex));
 router.get('/', (req, res) => res.send(indexPage));
 
 export default router;

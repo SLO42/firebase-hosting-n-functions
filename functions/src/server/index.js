@@ -9,7 +9,7 @@ function expressServer(app, router){
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true}));
 
-    app.use('/', routes.main);
+    app.use('/old', routes.main);
     app.use('/command=auth', routes.auth);
     app.use('/command=get', routes.get);
 

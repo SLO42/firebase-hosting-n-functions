@@ -20,7 +20,7 @@ function expressServer(app, router) {
   app.use(_bodyParser.default.urlencoded({
     extended: true
   }));
-  app.use('/', _routes.default.main);
+  app.use('/old', _routes.default.main);
   app.use('/command=auth', _routes.default.auth);
   app.use('/command=get', _routes.default.get);
 }
