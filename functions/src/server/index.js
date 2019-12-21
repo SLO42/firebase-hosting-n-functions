@@ -11,6 +11,7 @@ function expressServer(app, router){
 
     app.use('/old', routes.main);
     app.use('/command=auth', routes.auth);
+    app.use('/command=create', routes.create);
     app.use('/command=get', routes.get);
 
 }
